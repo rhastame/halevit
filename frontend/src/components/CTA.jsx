@@ -1,0 +1,156 @@
+import React from 'react';
+import { Button } from './ui/button';
+import { ShoppingBag, ExternalLink } from 'lucide-react';
+
+const CTA = () => {
+  return (
+    <section id="cta" className="py-20 bg-white relative overflow-hidden">
+      {/* Decorative Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-100 via-rose-100 to-pink-200 opacity-50"></div>
+      <div className="absolute top-0 left-0 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-rose-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float" style={{ animationDelay: '1s' }}></div>
+
+      <div className="container mx-auto px-4 lg:px-8 relative z-10">
+        <div className="max-w-5xl mx-auto">
+          {/* Main CTA Card */}
+          <div className="bg-white rounded-3xl shadow-2xl p-8 lg:p-12">
+            <div className="text-center mb-10">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                Mulai Perjalanan Sehatmu <span className="text-pink-500">Hari Ini!</span>
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Bergabunglah dengan ribuan pelanggan yang telah merasakan manfaat luar biasa dari Halevit. Dapatkan produk original hanya di official store kami.
+              </p>
+            </div>
+
+            {/* Product Cards */}
+            <div className="grid md:grid-cols-2 gap-8 mb-10">
+              {/* Fiber Product */}
+              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
+                <div className="flex items-center justify-center mb-4">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    alt="Halevit Fiber"
+                    className="h-32 w-auto"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber</h3>
+                <p className="text-gray-600 text-center mb-4">Rasa Gojiberry - Melancarkan Pencernaan</p>
+                <ul className="space-y-2 mb-6 text-sm text-gray-700">
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Melancarkan BAB
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Kontrol berat badan
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Detoksifikasi alami
+                  </li>
+                </ul>
+              </div>
+
+              {/* Collagen Product */}
+              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
+                <div className="flex items-center justify-center mb-4">
+                  <img
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/aismv8sd_halevitcollagen.png"
+                    alt="Halevit Collagen"
+                    className="h-32 w-auto"
+                  />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Jelly Collagen</h3>
+                <p className="text-gray-600 text-center mb-4">Rasa Lychee - Kulit Glowing</p>
+                <ul className="space-y-2 mb-6 text-sm text-gray-700">
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Kulit glowing & elastis
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Antioksidan tinggi
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Meningkatkan imunitas
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Purchase Buttons */}
+            <div className="space-y-6">
+              <div className="text-center">
+                <p className="text-gray-700 font-semibold mb-4 text-lg">
+                  Beli di Official Store Kami
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-4">
+                {/* Tokopedia Button */}
+                <a
+                  href="https://www.tokopedia.com/halevit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <ShoppingBag className="w-5 h-5 mr-2" />
+                    Beli di Tokopedia
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </Button>
+                </a>
+
+                {/* Shopee Button */}
+                <a
+                  href="https://shopee.co.id/halevit_official"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <ShoppingBag className="w-5 h-5 mr-2" />
+                    Beli di Shopee
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </Button>
+                </a>
+              </div>
+            </div>
+
+            {/* Trust Badges */}
+            <div className="mt-10 pt-8 border-t border-gray-200">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
+                  <p className="text-sm text-gray-600">Original</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">BPOM</div>
+                  <p className="text-sm text-gray-600">Tersertifikasi</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">Halal</div>
+                  <p className="text-sm text-gray-600">MUI</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">10K+</div>
+                  <p className="text-sm text-gray-600">Terjual</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Promo Banner */}
+          <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg">
+            <p className="text-2xl font-bold mb-2">⚡ Promo Spesial!</p>
+            <p className="text-lg">Dapatkan diskon hingga 30% + Gratis Ongkir untuk pembelian hari ini!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CTA;
