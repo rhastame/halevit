@@ -82,12 +82,12 @@ const HowItWorks = () => {
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700"><span className="font-semibold">Halevit Fiber:</span> 1 sachet setiap pagi, larutkan dalam 200ml air</p>
+                  <p className="text-gray-700"><span className="font-semibold">Halevit Fiber:</span> 1 sachet setiap malam sebelum tidur, larutkan dalam 150ml air.</p>
                 </div>
-                <div className="flex items-start space-x-3">
+                {/* <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
                   <p className="text-gray-700"><span className="font-semibold">Jelly Collagen:</span> 1-2 sachet per hari sebagai snack</p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div>
