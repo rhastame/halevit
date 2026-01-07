@@ -70,10 +70,10 @@ const Products = () => {
                 Fiber Rasa Gojiberry
               </div>
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Susah BAB? Takut Berat Badan Naik?
+                Susah BAB? Gagal Diet?
               </h3>
               <p className="text-lg text-gray-600 mb-8">
-                Makan dengan porsi banyak tapi takut timbangan selalu naik? Ingin menurunkan berat badan dan melancarkan pencernaan? Ingin memiliki berat badan ideal? <span className="font-semibold text-pink-600">Halevit Fiber solusinya.</span>
+                Makan porsi banyak tetap tenang karena ada <span className="font-semibold text-pink-600">Halevit Fiber!</span>
               </p>
 
               <div className="space-y-6">
