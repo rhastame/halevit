@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Sparkles, ArrowRight } from 'lucide-react';
-import HeroCombo from './HeroCombo';
 
 const Hero = () => {
   return (
