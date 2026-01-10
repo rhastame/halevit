@@ -76,10 +76,10 @@ const Products = () => {
   ];
 
   return (
-    <section id="products" className="py-20 bg-white">
+    <section id="products" className="py-20 bg-white" ref={sectionRef}>
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Produk <span className="text-pink-500">Halevit</span>
           </h2>
@@ -91,7 +91,7 @@ const Products = () => {
         {/* Gojiberry Product */}
         <div className="mb-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 scroll-reveal-left">
               <div className="inline-block bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 Fiber Rasa Gojiberry
               </div>
@@ -104,10 +104,10 @@ const Products = () => {
 
               <div className="space-y-6">
                 {gojiberryBenefits.map((benefit, index) => (
-                  <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300">
+                  <Card key={index} className="border-none shadow-lg hover:shadow-2xl transition-all duration-300 card-hover scroll-reveal" style={{ animationDelay: `${index * 0.1}s` }}>
                     <CardContent className="p-6">
                       <div className="flex items-start space-x-4">
-                        <div className="flex-shrink-0 w-16 h-16 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500">
+                        <div className="flex-shrink-0 w-16 h-16 bg-pink-100 rounded-2xl flex items-center justify-center text-pink-500 transition-transform duration-300 hover:scale-110">
                           {benefit.icon}
                         </div>
                         <div>
@@ -121,35 +121,35 @@ const Products = () => {
               </div>
             </div>
 
-            <div className="order-1 lg:order-2 relative">
-              <div className="relative z-10">
+            <div className="order-1 lg:order-2 relative scroll-reveal-right">
+              <div className="relative z-10 group">
                 <img
                   src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
                   alt="Halevit Fiber Gojiberry"
-                  className="w-full h-auto drop-shadow-2xl animate-float"
+                  className="w-full h-auto drop-shadow-2xl animate-float transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
             </div>
           </div>
         </div>
 
         {/* Apple Cranberry Product */}
-        <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-3xl p-8 lg:p-12">
+        <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-3xl p-8 lg:p-12 scroll-reveal">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <div className="relative z-10">
+            <div className="relative scroll-reveal-left">
+              <div className="relative z-10 group">
                 <img
                   src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
                   alt="Halevit Fiber Apple Cranberry"
-                  className="w-full h-auto drop-shadow-2xl animate-float"
+                  className="w-full h-auto drop-shadow-2xl animate-float transition-transform duration-500 group-hover:scale-105"
                   style={{ animationDelay: '0.5s' }}
                 />
               </div>
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-rose-200 rounded-full filter blur-3xl opacity-30"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-rose-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
             </div>
 
-            <div>
+            <div className="scroll-reveal-right">
               <div className="inline-block bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
                 Fiber Rasa Apple Cranberry
               </div>
@@ -162,10 +162,10 @@ const Products = () => {
 
               <div className="grid sm:grid-cols-2 gap-4">
                 {appleCranberryBenefits.map((benefit, index) => (
-                  <Card key={index} className="border-none shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
+                  <Card key={index} className="border-none shadow-md hover:shadow-xl transition-all duration-300 bg-white card-hover" style={{ animationDelay: `${index * 0.1}s` }}>
                     <CardContent className="p-4">
                       <div className="flex flex-col items-center text-center space-y-3">
-                        <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center text-pink-500">
+                        <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 transition-transform duration-300 hover:scale-110 hover:rotate-6">
                           {benefit.icon}
                         </div>
                         <div>
