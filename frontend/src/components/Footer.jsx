@@ -120,6 +120,14 @@ const Footer = () => {
             >
               Shopee Official Store
             </a>
+            <a
+              href="https://www.tiktok.com/@halevitfiber"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gray-800 hover:bg-black rounded-lg transition-colors font-semibold"
+            >
+              TikTok Shop Official
+            </a>
           </div>
         </div>
 
