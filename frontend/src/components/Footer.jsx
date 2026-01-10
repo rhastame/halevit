@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img
-                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/7qdhubv6_logo.png"
+                src="../images/logo.png"
                 alt="Halevit Logo"
                 className="h-12 w-auto"
               />

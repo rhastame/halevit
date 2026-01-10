@@ -34,7 +34,7 @@ const Header = () => {
           {/* Logo */}
           <a href="#hero" className="flex items-center space-x-2">
             <img
-              src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/7qdhubv6_logo.png"
+              src="../images/logo.png"
               alt="Halevit Logo"
               className="h-12 w-auto"
             />

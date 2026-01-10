@@ -123,9 +123,9 @@ const Products = () => {
             <div className="order-1 lg:order-2 relative scroll-reveal-right">
               <div className="relative z-10 group">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/22nbusxb_gojiberry.png"
+                  src="../images/gojiberry-fix.png"
                   alt="Halevit Fiber Gojiberry"
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105"
                   style={{ 
                     filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
                     animation: 'float 3s ease-in-out infinite'
@@ -143,17 +143,17 @@ const Products = () => {
             <div className="relative scroll-reveal-left">
               <div className="relative z-10 group">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/qao5b4rt_apple-cranberry1.png"
+                  src="../images/apple-cranberry-fix.png"
                   alt="Halevit Fiber Apple Cranberry"
                   className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
                   style={{ 
                     animationDelay: '0.5s',
-                    filter: 'drop-shadow(0 30px 40px rgba(34, 197, 94, 0.4))',
+                    filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
                     animation: 'float 3s ease-in-out infinite 0.5s'
                   }}
                 />
               </div>
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-green-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
             </div>
 
             <div className="scroll-reveal-right">
