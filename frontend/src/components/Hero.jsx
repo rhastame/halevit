@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Nikmati kelezatan dalam setiap tegukan bersama <span className="font-semibold text-pink-600">Halevit Jelly Collagen Lychee</span> dan <span className="font-semibold text-pink-600">Fiber Halevit rasa Gojiberry</span>, karena dapat memberi rasa kenyang lebih lama serta membuat kulit terlihat glowing.
+              Nikmati kelezatan dalam setiap tegukan bersama <span className="font-semibold text-pink-600">Halevit Fiber</span> dengan dua varian pilihan: <span className="font-semibold text-pink-600">Gojiberry</span> untuk pecinta kuliner dan <span className="font-semibold text-pink-600">Apple Cranberry</span> untuk yang aktif, karena dapat memberi rasa kenyang lebih lama serta menjaga kesehatan pencernaan Anda.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
