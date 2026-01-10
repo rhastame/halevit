@@ -79,16 +79,11 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Product Images */}
-          <div className="relative">
-            <div className="relative z-10 animate-float">
-              <img
-                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/lgqvwyec_apple-cranberry%20dan%20fojiberry.jpg"
-                alt="Halevit Products"
-                className="w-full h-auto drop-shadow-2xl"
-              />
-            </div>
-            {/* Background Circle */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-200 rounded-full filter blur-3xl opacity-40"></div>
+          <div className="relative h-[500px]">
+            <HeroCombo />
+            {/* Background Circles */}
+            <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-green-200 rounded-full filter blur-3xl opacity-30 animate-pulse" style={{ animationDelay: '1s' }}></div>
           </div>
         </div>
       </div>
