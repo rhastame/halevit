@@ -50,7 +50,7 @@ const CTA = () => {
             </div>
 
             {/* Product Cards */}
-            <div className="grid md:grid-cols-2 gap-8 mb-10">
+            <div className="grid md:grid-cols-2 gap-8 mb-10 scroll-reveal">
               {/* Gojiberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors group">
                 <div className="flex items-center justify-center mb-4 h-40">
@@ -109,7 +109,7 @@ const CTA = () => {
             </div>
 
             {/* Purchase Buttons */}
-            <div className="space-y-6">
+            <div className="space-y-6 scroll-reveal">
               <div className="text-center">
                 <p className="text-gray-700 font-semibold mb-4 text-lg">
                   Beli di Official Store Kami
