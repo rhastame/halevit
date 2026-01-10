@@ -15,12 +15,10 @@ const Footer = () => {
                 className="h-12 w-auto brightness-0 invert"
               />
             </div>
-            <p className="text-gray-400 mb-6 max-w-md">
-              Halevit adalah solusi kesehatan alami untuk pencernaan yang lebih baik dan kecantikan kulit dari dalam. Terbuat dari bahan alami pilihan, tanpa gula, dan tersertifikasi Halal.
-            </p>
+            <p className="text-gray-400 mb-6 max-w-md">Halevit adalah solusi kesehatan alami untuk pencernaan yang lebih sehat dan tubuh yang lebih ramping.</p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com/halevit"
+                href="https://www.facebook.com/share/1CArz9biDQ/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-pink-500 rounded-full flex items-center justify-center transition-colors"
@@ -28,7 +26,7 @@ const Footer = () => {
                 <Facebook className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com/halevit_official"
+                href="https://www.instagram.com/halevit.official"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-pink-500 rounded-full flex items-center justify-center transition-colors"
@@ -36,7 +34,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com/halevit"
+                href="https://www.tiktok.com/@halevitfiber"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 hover:bg-pink-500 rounded-full flex items-center justify-center transition-colors"
@@ -84,15 +82,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
-                <span>Jl. Kesehatan No. 123, Jakarta Selatan, Indonesia</span>
+                <span>Jl. Tampa 1 No. 97, Tangerang, Indonesia</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Phone className="w-5 h-5 flex-shrink-0" />
-                <span>+62 812-3456-7890</span>
+                <span>085186881407</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-400">
                 <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>info@halevit.com</span>
+                <span>halevitcustomerservice@gmail.com</span>
               </li>
             </ul>
           </div>
