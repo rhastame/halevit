@@ -24,55 +24,57 @@ const CTA = () => {
             </div>
 
             {/* Product Cards */}
-            {/* <div className="grid md:grid-cols-2 gap-8 mb-10">
+            <div className="grid md:grid-cols-2 gap-8 mb-10">
+              {/* Gojiberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
                     src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
-                    alt="Halevit Fiber"
+                    alt="Halevit Fiber Gojiberry"
                     className="h-32 w-auto"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber</h3>
-                <p className="text-gray-600 text-center mb-4">Rasa Gojiberry - Melancarkan Pencernaan</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Gojiberry</h3>
+                <p className="text-gray-600 text-center mb-4 text-sm">Kombinasi acaiberry, gojiberry, dan guarana - Untuk pecinta kuliner</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Melancarkan BAB
+                    Mengikat lemak berlebih
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Detoks maksimal setelah makan besar
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
                     Kontrol berat badan
                   </li>
-                  <li className="flex items-center">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    Detoksifikasi alami
-                  </li>
                 </ul>
               </div>
 
+              {/* Apple Cranberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/aismv8sd_halevitcollagen.png"
-                    alt="Halevit Collagen"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    alt="Halevit Fiber Apple Cranberry"
                     className="h-32 w-auto"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Jelly Collagen</h3>
-                <p className="text-gray-600 text-center mb-4">Rasa Lychee - Kulit Glowing</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Apple Cranberry</h3>
+                <p className="text-gray-600 text-center mb-4 text-sm">Perpaduan apel dan cranberry - Untuk yang aktif bergerak</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Kulit glowing & elastis
+                    Melancarkan BAB tanpa begah
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Antioksidan tinggi
+                    Detoks ringan untuk aktivitas padat
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Meningkatkan imunitas
+                    Kaya antioksidan alami
                   </li>
                 </ul>
               </div>
@@ -86,7 +88,7 @@ const CTA = () => {
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 {/* Tokopedia Button */}
                 <a
                   href="https://www.tokopedia.com/halevit"
@@ -111,6 +113,22 @@ const CTA = () => {
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
                     <ShoppingBag className="w-5 h-5 mr-2" />
                     Beli di Shopee
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </Button>
+                </a>
+
+                {/* TikTok Shop Button */}
+                <a
+                  href="https://www.tiktok.com/@halevitfiber"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <Button className="w-full bg-black hover:bg-gray-800 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                    </svg>
+                    Beli di TikTok Shop
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
                 </a>
