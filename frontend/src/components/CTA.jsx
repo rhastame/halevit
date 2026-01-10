@@ -164,7 +164,7 @@ const CTA = () => {
             </div>
 
             {/* Trust Badges */}
-            <div className="mt-10 pt-8 border-t border-gray-200">
+            <div className="mt-10 pt-8 border-t border-gray-200 scroll-reveal">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
@@ -187,7 +187,7 @@ const CTA = () => {
           </div>
 
           {/* Promo Banner */}
-          <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg">
+          <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg scroll-reveal">
             <p className="text-2xl font-bold mb-2">⚡ Promo Spesial!</p>
             <p className="text-lg">Dapatkan diskon hingga 30% + Gratis Ongkir untuk pembelian hari ini!</p>
           </div>
