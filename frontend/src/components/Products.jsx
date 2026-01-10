@@ -1,61 +1,51 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { Heart, Droplet, Sparkles, Shield, Zap, Apple, Flame, Scale, Activity } from 'lucide-react';
+import { Activity, Sparkles, Scale, Flame, Heart, Shield, Zap, Apple as AppleIcon, CheckCircle } from 'lucide-react';
 
 const Products = () => {
-  const fiberBenefits = [
+  const gojiberryBenefits = [
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Melancarkan pencernaan dan BAB',
-      description: 'Membantu melancarkan BAB dan menjaga pencernaan tetap sehat, sehingga perut terasa lebih nyaman setiap hari.'
+      title: 'Melancarkan Pencernaan',
+      description: 'Membantu melancarkan pencernaan setelah makan banyak agar perut tetap nyaman.'
     },
     {
-      icon: <Droplet className="w-8 h-8" />,
-      title: 'Mengikat minyak dan lemak di usus',
-      description: 'Serat membantu mengikat minyak dan lemak berlebih di usus agar tidak terserap terlalu banyak oleh tubuh.'
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: 'Membantu menjaga kadar kolesterol',
-      description: 'Mendukung keseimbangan kadar kolesterol sebagai bagian dari pola makan dan gaya hidup sehat.'
-    },
-    {
-      icon: <Flame className="w-8 h-8" />,
-      title: 'Detoksifikasi alami tubuh',
-      description: 'Membantu proses pembuangan racun dari dalam tubuh dan mendukung metabolisme secara alami.'
+      icon: <Sparkles className="w-8 h-8" />,
+      title: 'Detoksifikasi Lebih Optimal',
+      description: 'Membantu membersihkan sisa makanan dan racun dalam tubuh secara lebih maksimal.'
     },
     {
       icon: <Scale className="w-8 h-8" />,
-      title: 'Membantu kontrol berat badan',
-      description: 'Memberi rasa kenyang lebih lama untuk membantu menjaga dan mengontrol berat badan ideal.'
+      title: 'Kontrol dan Penjagaan Berat Badan',
+      description: 'Membantu mengontrol asupan makan bagi pecinta kuliner agar berat badan tetap terjaga.'
     }
   ];
 
-  const lycheeBenefits = [
+  const appleCranberryBenefits = [
     {
-      icon: <Sparkles className="w-8 h-8" />,
-      title: 'Kulit Glowing',
-      description: 'Kolagen membantu menjaga elastisitas dan kecerahan kulit'
+      icon: <Activity className="w-8 h-8" />,
+      title: 'Melancarkan Pencernaan dan BAB',
+      description: 'Membantu melancarkan BAB serta menjaga pencernaan tetap nyaman tanpa rasa begah.'
     },
     {
-      icon: <Heart className="w-8 h-8" />,
-      title: 'Antioksidan Tinggi',
-      description: 'Lychee kaya vitamin C untuk melawan radikal bebas'
-    },
-    {
-      icon: <Droplet className="w-8 h-8" />,
-      title: 'Hidrasi Optimal',
-      description: 'Menjaga kelembaban kulit dari dalam'
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: 'Meningkatkan Imunitas',
-      description: 'Memperkuat sistem kekebalan tubuh'
+      icon: <Flame className="w-8 h-8" />,
+      title: 'Detoksifikasi Alami yang Lembut',
+      description: 'Membantu proses pembuangan sisa makanan dan racun ringan dari dalam tubuh secara alami.'
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: 'Energi & Kesegaran',
-      description: 'Memberikan energi alami untuk aktivitas harian'
+      title: 'Mendukung Metabolisme Tubuh',
+      description: 'Membantu tubuh mengolah makanan dengan lebih optimal agar terasa lebih ringan setelah makan.'
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
+      title: 'Kaya Antioksidan Alami',
+      description: 'Kombinasi apel dan cranberry kaya antioksidan untuk mendukung kesehatan dan daya tahan tubuh.'
+    },
+    {
+      icon: <CheckCircle className="w-8 h-8" />,
+      title: 'Nyaman untuk Konsumsi Harian',
+      description: 'Formulasi ringan yang tidak mengganggu aktivitas dan cocok dikonsumsi secara rutin setiap hari.'
     }
   ];
 
