@@ -154,63 +154,6 @@ const Products = () => {
             </div>
           </div>
         </div>
-
-        {/* Comparison Helper */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="bg-gradient-to-r from-pink-100 to-rose-100 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Varian Mana yang Cocok Untukmu?</h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-xl p-6 shadow-md">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-3 h-3 bg-pink-500 rounded-full"></div>
-                  <h4 className="text-xl font-bold text-pink-600">Gojiberry</h4>
-                </div>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    <span>Untuk pecinta kuliner</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    <span>Sering makan porsi besar</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    <span>Butuh detoks maksimal</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    <span>Ingin kontrol berat badan</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-white rounded-xl p-6 shadow-md">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-3 h-3 bg-rose-500 rounded-full"></div>
-                  <h4 className="text-xl font-bold text-rose-600">Apple Cranberry</h4>
-                </div>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex items-start">
-                    <span className="text-rose-500 mr-2">✓</span>
-                    <span>Untuk yang aktif bergerak</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-rose-500 mr-2">✓</span>
-                    <span>Jarang makan berat</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-rose-500 mr-2">✓</span>
-                    <span>Detoks ringan harian</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-rose-500 mr-2">✓</span>
-                    <span>Konsumsi rutin tanpa begah</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
