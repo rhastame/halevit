@@ -123,9 +123,13 @@ const Products = () => {
             <div className="order-1 lg:order-2 relative scroll-reveal-right">
               <div className="relative z-10 group">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/dx86pqhf_gojiberry.jpg"
+                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/22nbusxb_gojiberry.png"
                   alt="Halevit Fiber Gojiberry"
-                  className="w-full h-auto drop-shadow-2xl animate-float transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                  style={{ 
+                    filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
+                    animation: 'float 3s ease-in-out infinite'
+                  }}
                 />
               </div>
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
