@@ -9,8 +9,8 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: 'Apa itu Halevit Fiber dan Jelly Collagen?',
-      answer: 'Halevit Fiber adalah suplemen serat alami rasa gojiberry yang membantu melancarkan pencernaan dan mengontrol berat badan. Halevit Jelly Collagen Lychee adalah suplemen kolagen dengan rasa lychee yang membantu kecantikan kulit dari dalam.'
+      question: 'Apa itu Halevit Fiber?',
+      answer: 'Suplemen serat berbentuk serbuk dengan 2 varian rasa yang bisa membantu melancarkan pencernaan, detox usus, mencegah kolesterol dan membuat tubuh lebih fit'
     },
     {
       question: 'Apakah produk Halevit aman dikonsumsi?',
@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       question: 'Bagaimana cara konsumsi yang benar?',
-      answer: 'Halevit Fiber: Larutkan 1 sachet dalam 200ml air dingin, minum setiap pagi sebelum sarapan. Jelly Collagen: Konsumsi 1-2 sachet per hari sebagai snack sehat, bisa dimakan langsung atau didinginkan terlebih dahulu.'
+      answer: 'Larutkan 1 sachet halevit fiber dengan air 150ml diminum setiap malam sebelum tidur.'
     },
     {
       question: 'Apakah ada efek samping?',
@@ -37,8 +37,8 @@ const FAQ = () => {
       answer: 'Halevit umumnya aman dikonsumsi bersamaan dengan obat lain. Namun, untuk memastikan tidak ada interaksi, sebaiknya konsumsi Halevit dengan jarak 2 jam dari obat-obatan lain atau konsultasikan dengan dokter Anda.'
     },
     {
-      question: 'Di mana saya bisa membeli produk Halevit?',
-      answer: 'Anda dapat membeli produk Halevit secara online melalui official store kami di Tokopedia dan Shopee. Klik tombol "Beli Sekarang" di website ini untuk langsung menuju ke marketplace pilihan Anda.'
+      question: 'Dimana saya bisa membeli produk Halevit?',
+      answer: 'Anda bisa membeli produk Halevit secara online melalui official store kami di Tokopedia, Tiktokshop, dan Shopee. Klik tombol beli sekarang di website ini untuk langsung menuju ke marketplace pilihan anda.'
     }
   ];
 
@@ -82,7 +82,7 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6285186881407"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full font-semibold transition-colors"
@@ -92,7 +92,7 @@ const FAQ = () => {
               </svg>
               WhatsApp
             </a>
-            <a
+            {/* <a
               href="mailto:info@halevit.com"
               className="inline-flex items-center justify-center px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-full font-semibold transition-colors"
             >
@@ -100,7 +100,7 @@ const FAQ = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               Email
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

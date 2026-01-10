@@ -78,13 +78,13 @@ const CTA = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Purchase Buttons */}
             <div className="space-y-6">
               <div className="text-center">
                 <p className="text-gray-700 font-semibold mb-4 text-lg">
-                  Beli di Official Store Kami
+                  Beli Sekarang!
                 </p>
               </div>
 
@@ -136,7 +136,7 @@ const CTA = () => {
             </div>
 
             {/* Trust Badges */}
-            <div className="mt-10 pt-8 border-t border-gray-200">
+            {/* <div className="mt-10 pt-8 border-t border-gray-200">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
@@ -155,13 +155,12 @@ const CTA = () => {
                   <p className="text-sm text-gray-600">Terjual</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Promo Banner */}
           <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg">
-            <p className="text-2xl font-bold mb-2">⚡ Promo Spesial!</p>
-            <p className="text-lg">Dapatkan diskon hingga 30% + Gratis Ongkir untuk pembelian hari ini!</p>
+            <p className="text-2xl font-bold mb-2">#StayFitWithHalevit</p>
           </div>
         </div>
       </div>
