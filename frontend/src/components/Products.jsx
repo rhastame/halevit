@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Card, CardContent } from './ui/card';
-import { Activity, Sparkles, Scale, Flame, Heart, Shield, Zap, Apple as AppleIcon, CheckCircle } from 'lucide-react';
+import { Activity, Sparkles, Scale, Flame, Shield, Zap, CheckCircle } from 'lucide-react';
 
 const Products = () => {
   const sectionRef = useRef(null);
@@ -28,7 +28,6 @@ const Products = () => {
     };
   }, []);
 
-const Products = () => {
   const gojiberryBenefits = [
     {
       icon: <Scale className="w-8 h-8" />,
