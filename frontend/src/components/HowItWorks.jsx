@@ -86,7 +86,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700"><span className="font-semibold">Jelly Collagen:</span> 1-2 sachet per hari sebagai snack</p>
+                  <p className="text-gray-700"><span className="font-semibold">Pilih varian:</span> Gojiberry untuk pecinta kuliner, Apple Cranberry untuk yang aktif</p>
                 </div>
               </div>
             </div>
