@@ -32,7 +32,7 @@ const FAQ = () => {
     };
   }, []);
 
-const FAQ = () => {
+  const faqs = [
   const faqs = [
     {
       question: 'Apa itu Halevit Fiber dan Jelly Collagen?',
