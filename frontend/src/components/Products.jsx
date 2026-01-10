@@ -67,18 +67,18 @@ const Products = () => {
       title: 'Kaya Antioksidan',
       description: 'Perpaduan apel dan cranberry kaya antioksidan untuk mendukung daya tahan tubuh.'
     },
-    {
-      icon: <CheckCircle className="w-8 h-8" />,
-      title: 'Praktis untuk Konsumsi Rutin',
-      description: 'Formulasi ringan yang nyaman dikonsumsi setiap hari.'
-    }
+    // {
+    //   icon: <CheckCircle className="w-8 h-8" />,
+    //   title: 'Praktis untuk Konsumsi Rutin',
+    //   description: 'Formulasi ringan yang nyaman dikonsumsi setiap hari.'
+    // }
   ];
 
   return (
     <section id="products" className="py-20 bg-white" ref={sectionRef}>
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16 scroll-reveal">
+        <div className="text-center mb-14 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Produk <span className="text-pink-500">Halevit</span>
           </h2>
@@ -121,11 +121,11 @@ const Products = () => {
             </div>
 
             <div className="order-1 lg:order-2 relative scroll-reveal-right">
-              <div className="relative z-10 group">
+              <div className="relative z-10 group flex justify-center">
                 <img
                   src="../images/gojiberry-fix.png"
                   alt="Halevit Fiber Gojiberry"
-                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105"
+                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105 p-4 mt-2"
                   style={{ 
                     filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
                     animation: 'float 3s ease-in-out infinite'
@@ -141,11 +141,11 @@ const Products = () => {
         <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-3xl p-8 lg:p-12 scroll-reveal">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative scroll-reveal-left">
-              <div className="relative z-10 group">
+              <div className="relative z-10 group flex justify-center">
                 <img
                   src="../images/apple-cranberry-fix.png"
                   alt="Halevit Fiber Apple Cranberry"
-                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105"
                   style={{ 
                     animationDelay: '0.5s',
                     filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',

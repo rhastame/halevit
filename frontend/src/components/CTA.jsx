@@ -55,11 +55,11 @@ const CTA = () => {
 
               {/* Apple Cranberry Product */}
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200 hover:border-green-400 transition-colors group">
-                <div className="flex items-center justify-center mb-4 h-40">
+                <div className="flex items-center justify-center mb-6 h-40">
                   <img
                     src="../images/apple-cranberry-fix.png"
                     alt="Halevit Fiber Apple Cranberry"
-                    className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+                    className="h-60 w-auto object-contain transition-transform duration-300 group-hover:scale-110"
                     style={{ filter: 'drop-shadow(0 10px 20px rgba(34, 197, 94, 0.3))' }}
                   />
                 </div>

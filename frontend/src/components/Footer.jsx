@@ -90,10 +90,6 @@ const Footer = () => {
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 <span>085186881407</span>
               </li>
-              <li className="flex items-center space-x-3 text-gray-400">
-                <Mail className="w-5 h-5 flex-shrink-0" />
-                <span>halevitcustomerservice@gmail.com</span>
-              </li>
             </ul>
           </div>
         </div>
