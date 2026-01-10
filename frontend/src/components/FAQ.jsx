@@ -69,10 +69,10 @@ const FAQ = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-gradient-to-br from-pink-50 via-white to-rose-50">
+    <section id="faq" className="py-20 bg-gradient-to-br from-pink-50 via-white to-rose-50" ref={sectionRef}>
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Pertanyaan <span className="text-pink-500">Umum</span>
           </h2>
@@ -88,7 +88,8 @@ const FAQ = () => {
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow px-6 border-none"
+                className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow px-6 border-none scroll-reveal"
+                style={{ animationDelay: `${index * 0.05}s` }}
               >
                 <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-pink-500 py-6">
                   {faq.question}
@@ -102,7 +103,7 @@ const FAQ = () => {
         </div>
 
         {/* Contact Info */}
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center scroll-reveal">
           <p className="text-gray-600 mb-4">
             Masih ada pertanyaan? Hubungi tim customer service kami
           </p>
