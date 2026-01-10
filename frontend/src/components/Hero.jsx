@@ -79,8 +79,15 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Product Images */}
-          <div className="relative h-[500px]">
-            <HeroCombo />
+          <div className="relative">
+            <div className="relative z-10 animate-float">
+              <img
+                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/iqj70vu7_hero-section-fix.png"
+                alt="Halevit Products"
+                className="w-full h-auto"
+                style={{ filter: 'drop-shadow(0 30px 50px rgba(236, 72, 153, 0.3))' }}
+              />
+            </div>
             {/* Background Circles */}
             <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
             <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-green-200 rounded-full filter blur-3xl opacity-30 animate-pulse" style={{ animationDelay: '1s' }}></div>
