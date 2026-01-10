@@ -31,46 +31,46 @@ const Products = () => {
   const gojiberryBenefits = [
     {
       icon: <Scale className="w-8 h-8" />,
-      title: 'Mengikat Lemak Berlebih',
-      description: 'Membantu mengikat lemak dari makanan berat agar tidak terserap terlalu banyak oleh tubuh.'
+      title: 'Membantu Mengikat Lemak Berlebih',
+      description: 'Membantu mengikat lemak dari makanan berat agar tidak terserap berlebihan oleh tubuh.'
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
-      title: 'Detoks Maksimal Setelah Makan Besar',
-      description: 'Membersihkan sisa makanan dan racun dalam tubuh secara lebih optimal setelah makan porsi besar.'
+      title: 'Detoks Maksimal Setelah Makan Banyak',
+      description: 'Membersihkan sisa makanan dan racun dalam tubuh secara lebih optimal setelah makan banyak.'
     },
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Kontrol Berat Badan untuk Pecinta Kuliner',
-      description: 'Membantu mengontrol asupan dan menjaga berat badan tetap ideal meski sering makan enak.'
+      title: 'Kontrol Berat Badan',
+      description: 'Membantu mengontrol asupan dan menjaga berat badan tetap ideal.'
     }
   ];
 
   const appleCranberryBenefits = [
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Melancarkan BAB Tanpa Begah',
-      description: 'Membantu melancarkan BAB dengan formula ringan yang tidak mengganggu aktivitas harian.'
+      title: 'Melancarkan Pencernaan dan BAB',
+      description: 'Membantu melancarkan BAB agar pencernaan tetap nyaman setiap hari.'
     },
     {
       icon: <Flame className="w-8 h-8" />,
       title: 'Detoks Ringan untuk Aktivitas Padat',
-      description: 'Membersihkan tubuh secara lembut tanpa efek begah, cocok untuk kamu yang selalu aktif bergerak.'
+      description: 'Mendukung pembersihan tubuh secara lembut tanpa rasa begah.'
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: 'Metabolisme Lebih Optimal',
-      description: 'Membantu tubuh mengolah makanan dengan lebih efisien agar terasa lebih ringan dan berenergi.'
+      title: 'Mendukung Metabolisme Tubuh',
+      description: 'Membantu tubuh mengolah makanan lebih optimal agar terasa lebih ringan.'
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: 'Antioksidan untuk Daya Tahan Tubuh',
-      description: 'Kombinasi apel dan cranberry kaya antioksidan untuk menjaga kesehatan dan imunitas.'
+      title: 'Kaya Antioksidan',
+      description: 'Perpaduan apel dan cranberry kaya antioksidan untuk mendukung daya tahan tubuh.'
     },
     {
       icon: <CheckCircle className="w-8 h-8" />,
       title: 'Praktis untuk Konsumsi Rutin',
-      description: 'Formula ringan yang nyaman dikonsumsi setiap hari tanpa mengganggu aktivitas dan rutinitas.'
+      description: 'Formulasi ringan yang nyaman dikonsumsi setiap hari.'
     }
   ];
 

@@ -9,36 +9,36 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: 'Apa itu Halevit Fiber dan Jelly Collagen?',
-      answer: 'Halevit Fiber adalah suplemen serat alami rasa gojiberry yang membantu melancarkan pencernaan dan mengontrol berat badan. Halevit Jelly Collagen Lychee adalah suplemen kolagen dengan rasa lychee yang membantu kecantikan kulit dari dalam.'
+      question: 'Apa itu Halevit Fiber?',
+      answer: 'Halevit Fiber adalah minuman serat berbentuk serbuk dengan 2 varian rasa yang membantu melancarkan pencernaan, menjaga kesehatan usus, membantu BAB lebih teratur, dan mendukung gaya hidup sehat sehari-hari.'
     },
     {
-      question: 'Apakah produk Halevit aman dikonsumsi?',
-      answer: 'Ya, sangat aman! Halevit terbuat dari 100% bahan alami, tanpa gula tambahan, dan telah tersertifikasi Halal serta BPOM. Produk kami telah diuji secara klinis dan aman untuk dikonsumsi jangka panjang.'
+      question: 'Apakah Halevit Fiber aman dikonsumsi setiap hari?',
+      answer: 'Ya, Halevit Fiber aman untuk dikonsumsi setiap hari. Terbuat dari bahan alami, tanpa gula tambahan, serta telah terdaftar BPOM dan bersertifikat Halal.'
     },
     {
-      question: 'Berapa lama saya bisa melihat hasilnya?',
-      answer: 'Hasil dapat bervariasi untuk setiap individu. Namun, sebagian besar pengguna merasakan perubahan pada pencernaan dalam 1-2 minggu pertama. Untuk hasil optimal pada berat badan dan kecantikan kulit, konsumsi rutin selama 1-3 bulan.'
+      question: 'Kapan hasil konsumsi Halevit Fiber bisa dirasakan?',
+      answer: 'Hasil dapat berbeda pada setiap orang. Umumnya, pencernaan terasa lebih lancar dalam 1–2 minggu konsumsi rutin. Untuk hasil yang lebih optimal, disarankan konsumsi secara teratur.'
     },
     {
-      question: 'Bagaimana cara konsumsi yang benar?',
-      answer: 'Halevit Fiber: Larutkan 1 sachet dalam 200ml air dingin, minum setiap pagi sebelum sarapan. Jelly Collagen: Konsumsi 1-2 sachet per hari sebagai snack sehat, bisa dimakan langsung atau didinginkan terlebih dahulu.'
+      question: 'Bagaimana cara minum Halevit Fiber yang benar?',
+      answer: 'Larutkan 1 sachet Halevit Fiber ke dalam 150 ml air, lalu minum setiap malam sebelum tidur untuk membantu menjaga pencernaan.'
     },
     {
-      question: 'Apakah ada efek samping?',
-      answer: 'Halevit terbuat dari bahan alami dan umumnya tidak menimbulkan efek samping. Namun, jika Anda memiliki kondisi medis tertentu atau sedang hamil/menyusui, konsultasikan dengan dokter terlebih dahulu.'
+      question: 'Apakah Halevit Fiber menimbulkan efek samping?',
+      answer: 'Halevit Fiber dibuat dari bahan alami dan umumnya tidak menimbulkan efek samping.'
     },
     {
-      question: 'Apakah cocok untuk ibu hamil dan menyusui?',
-      answer: 'Meskipun Halevit terbuat dari bahan alami, kami sarankan untuk berkonsultasi dengan dokter kandungan Anda terlebih dahulu sebelum mengonsumsi suplemen apapun selama kehamilan atau menyusui.'
+      question: 'Apakah Halevit Fiber aman untuk ibu hamil dan menyusui?',
+      answer: 'Untuk ibu hamil dan menyusui, disarankan berkonsultasi terlebih dahulu dengan dokter sebelum mengonsumsi Halevit Fiber atau suplemen lainnya.'
     },
     {
-      question: 'Apakah Halevit bisa dikonsumsi bersamaan dengan obat lain?',
-      answer: 'Halevit umumnya aman dikonsumsi bersamaan dengan obat lain. Namun, untuk memastikan tidak ada interaksi, sebaiknya konsumsi Halevit dengan jarak 2 jam dari obat-obatan lain atau konsultasikan dengan dokter Anda.'
+      question: 'Apakah Halevit Fiber bisa diminum bersamaan dengan obat?',
+      answer: 'Halevit Fiber aman dikonsumsi bersamaan dengan obat lain. Untuk hasil terbaik, beri jeda sekitar 1–2 jam atau konsultasikan dengan tenaga medis.'
     },
     {
-      question: 'Di mana saya bisa membeli produk Halevit?',
-      answer: 'Anda dapat membeli produk Halevit secara online melalui official store kami di Tokopedia dan Shopee. Klik tombol "Beli Sekarang" di website ini untuk langsung menuju ke marketplace pilihan Anda.'
+      question: 'Di mana bisa membeli Halevit Fiber?',
+      answer: 'Halevit Fiber tersedia di official store Halevit di Tokopedia, Shopee, dan TikTok Shop. Klik tombol beli sekarang untuk menuju marketplace pilihan Anda.'
     }
   ];
 
@@ -82,7 +82,7 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://wa.me/6281234567890"
+              href="https://wa.me/6285186881407"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full font-semibold transition-colors"
@@ -92,7 +92,7 @@ const FAQ = () => {
               </svg>
               WhatsApp
             </a>
-            <a
+            {/* <a
               href="mailto:info@halevit.com"
               className="inline-flex items-center justify-center px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white rounded-full font-semibold transition-colors"
             >
@@ -100,7 +100,7 @@ const FAQ = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
               Email
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
