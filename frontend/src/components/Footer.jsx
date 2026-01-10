@@ -12,7 +12,7 @@ const Footer = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/7qdhubv6_logo.png"
                 alt="Halevit Logo"
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">Halevit adalah solusi kesehatan alami untuk pencernaan yang lebih sehat dan tubuh yang lebih ramping.</p>
