@@ -33,7 +33,6 @@ const FAQ = () => {
   }, []);
 
   const faqs = [
-  const faqs = [
     {
       question: 'Apa itu Halevit Fiber dan Jelly Collagen?',
       answer: 'Halevit Fiber adalah suplemen serat alami rasa gojiberry yang membantu melancarkan pencernaan dan mengontrol berat badan. Halevit Jelly Collagen Lychee adalah suplemen kolagen dengan rasa lychee yang membantu kecantikan kulit dari dalam.'
