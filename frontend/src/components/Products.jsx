@@ -5,47 +5,47 @@ import { Activity, Sparkles, Scale, Flame, Heart, Shield, Zap, Apple as AppleIco
 const Products = () => {
   const gojiberryBenefits = [
     {
-      icon: <Activity className="w-8 h-8" />,
-      title: 'Melancarkan Pencernaan',
-      description: 'Membantu melancarkan pencernaan setelah makan banyak agar perut tetap nyaman.'
+      icon: <Scale className="w-8 h-8" />,
+      title: 'Mengikat Lemak Berlebih',
+      description: 'Membantu mengikat lemak dari makanan berat agar tidak terserap terlalu banyak oleh tubuh.'
     },
     {
       icon: <Sparkles className="w-8 h-8" />,
-      title: 'Detoksifikasi Lebih Optimal',
-      description: 'Membantu membersihkan sisa makanan dan racun dalam tubuh secara lebih maksimal.'
+      title: 'Detoks Maksimal Setelah Makan Besar',
+      description: 'Membersihkan sisa makanan dan racun dalam tubuh secara lebih optimal setelah makan porsi besar.'
     },
     {
-      icon: <Scale className="w-8 h-8" />,
-      title: 'Kontrol dan Penjagaan Berat Badan',
-      description: 'Membantu mengontrol asupan makan bagi pecinta kuliner agar berat badan tetap terjaga.'
+      icon: <Activity className="w-8 h-8" />,
+      title: 'Kontrol Berat Badan untuk Pecinta Kuliner',
+      description: 'Membantu mengontrol asupan dan menjaga berat badan tetap ideal meski sering makan enak.'
     }
   ];
 
   const appleCranberryBenefits = [
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Melancarkan Pencernaan dan BAB',
-      description: 'Membantu melancarkan BAB serta menjaga pencernaan tetap nyaman tanpa rasa begah.'
+      title: 'Melancarkan BAB Tanpa Begah',
+      description: 'Membantu melancarkan BAB dengan formula ringan yang tidak mengganggu aktivitas harian.'
     },
     {
       icon: <Flame className="w-8 h-8" />,
-      title: 'Detoksifikasi Alami yang Lembut',
-      description: 'Membantu proses pembuangan sisa makanan dan racun ringan dari dalam tubuh secara alami.'
+      title: 'Detoks Ringan untuk Aktivitas Padat',
+      description: 'Membersihkan tubuh secara lembut tanpa efek begah, cocok untuk kamu yang selalu aktif bergerak.'
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: 'Mendukung Metabolisme Tubuh',
-      description: 'Membantu tubuh mengolah makanan dengan lebih optimal agar terasa lebih ringan setelah makan.'
+      title: 'Metabolisme Lebih Optimal',
+      description: 'Membantu tubuh mengolah makanan dengan lebih efisien agar terasa lebih ringan dan berenergi.'
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: 'Kaya Antioksidan Alami',
-      description: 'Kombinasi apel dan cranberry kaya antioksidan untuk mendukung kesehatan dan daya tahan tubuh.'
+      title: 'Antioksidan untuk Daya Tahan Tubuh',
+      description: 'Kombinasi apel dan cranberry kaya antioksidan untuk menjaga kesehatan dan imunitas.'
     },
     {
       icon: <CheckCircle className="w-8 h-8" />,
-      title: 'Nyaman untuk Konsumsi Harian',
-      description: 'Formulasi ringan yang tidak mengganggu aktivitas dan cocok dikonsumsi secara rutin setiap hari.'
+      title: 'Praktis untuk Konsumsi Rutin',
+      description: 'Formula ringan yang nyaman dikonsumsi setiap hari tanpa mengganggu aktivitas dan rutinitas.'
     }
   ];
 
