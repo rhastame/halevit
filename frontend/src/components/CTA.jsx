@@ -28,7 +28,6 @@ const CTA = () => {
     };
   }, []);
 
-const CTA = () => {
   return (
     <section id="cta" className="py-20 bg-white relative overflow-hidden" ref={sectionRef}>
       {/* Decorative Background */}
