@@ -139,7 +139,7 @@ const Products = () => {
             <div className="relative scroll-reveal-left">
               <div className="relative z-10 group">
                 <img
-                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                  src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/kjdfjw8u_apple-cranberry1.jpg"
                   alt="Halevit Fiber Apple Cranberry"
                   className="w-full h-auto drop-shadow-2xl animate-float transition-transform duration-500 group-hover:scale-105"
                   style={{ animationDelay: '0.5s' }}
