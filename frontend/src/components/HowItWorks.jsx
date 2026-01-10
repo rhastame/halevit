@@ -8,7 +8,7 @@ const HowItWorks = () => {
       icon: <Coffee className="w-10 h-10" />,
       step: 'Langkah 1',
       title: 'Konsumsi Rutin',
-      description: 'Minum Halevit Fiber setiap pagi dan Jelly Collagen sebagai snack sehat'
+      description: 'Minum Halevit Fiber setiap pagi sesuai dengan gaya hidup Anda'
     },
     {
       icon: <Clock className="w-10 h-10" />,
