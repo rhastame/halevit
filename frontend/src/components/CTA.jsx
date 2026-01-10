@@ -88,7 +88,7 @@ const CTA = () => {
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid md:grid-cols-3 gap-4">
                 {/* Tokopedia Button */}
                 <a
                   href="https://www.tokopedia.com/halevit"
@@ -113,6 +113,22 @@ const CTA = () => {
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
                     <ShoppingBag className="w-5 h-5 mr-2" />
                     Beli di Shopee
+                    <ExternalLink className="w-4 h-4 ml-2" />
+                  </Button>
+                </a>
+
+                {/* TikTok Shop Button */}
+                <a
+                  href="https://www.tiktok.com/@halevitfiber"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <Button className="w-full bg-black hover:bg-gray-800 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z"/>
+                    </svg>
+                    Beli di TikTok Shop
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
                 </a>
