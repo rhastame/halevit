@@ -28,7 +28,6 @@ const Testimonials = () => {
     };
   }, []);
 
-const Testimonials = () => {
   const testimonials = [
     {
       name: 'Siti Nurhaliza',
