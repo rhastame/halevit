@@ -1,10 +1,35 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Button } from './ui/button';
 import { ShoppingBag, ExternalLink } from 'lucide-react';
 
 const CTA = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      }
+    );
+
+    const elements = sectionRef.current?.querySelectorAll('.scroll-reveal');
+    elements?.forEach((el) => observer.observe(el));
+
+    return () => {
+      elements?.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   return (
-    <section id="cta" className="py-20 bg-white relative overflow-hidden">
+    <section id="cta" className="py-20 bg-white relative overflow-hidden" ref={sectionRef}>
       {/* Decorative Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-pink-100 via-rose-100 to-pink-200 opacity-50"></div>
       <div className="absolute top-0 left-0 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float"></div>
@@ -13,7 +38,7 @@ const CTA = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto">
           {/* Main CTA Card */}
-          <div className="bg-white rounded-3xl shadow-2xl p-8 lg:p-12">
+          <div className="bg-white rounded-3xl shadow-2xl p-8 lg:p-12 scroll-reveal">
             <div className="text-center mb-10">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Mulai Perjalanan Sehatmu <span className="text-pink-500">Hari Ini!</span>
@@ -24,7 +49,7 @@ const CTA = () => {
             </div>
 
             {/* Product Cards */}
-            <div className="grid md:grid-cols-2 gap-8 mb-10">
+            <div className="grid md:grid-cols-2 gap-8 mb-10 scroll-reveal">
               {/* Gojiberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors group">
                 <div className="flex items-center justify-center mb-4 h-40">
@@ -83,7 +108,7 @@ const CTA = () => {
             </div>
 
             {/* Purchase Buttons */}
-            <div className="space-y-6">
+            <div className="space-y-6 scroll-reveal">
               <div className="text-center">
                 <p className="text-gray-700 font-semibold mb-4 text-lg">
                   Beli Sekarang!
@@ -138,7 +163,7 @@ const CTA = () => {
             </div>
 
             {/* Trust Badges */}
-            <div className="mt-10 pt-8 border-t border-gray-200">
+            <div className="mt-10 pt-8 border-t border-gray-200 scroll-reveal">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>

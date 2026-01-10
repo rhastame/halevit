@@ -1,8 +1,33 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Card, CardContent } from './ui/card';
 import { Coffee, Clock, Smile, TrendingUp } from 'lucide-react';
 
 const HowItWorks = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+          }
+        });
+      },
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      }
+    );
+
+    const elements = sectionRef.current?.querySelectorAll('.scroll-reveal');
+    elements?.forEach((el) => observer.observe(el));
+
+    return () => {
+      elements?.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   const steps = [
     {
       icon: <Coffee className="w-10 h-10" />,
@@ -31,14 +56,14 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="benefits" className="py-20 bg-gradient-to-br from-pink-50 via-white to-rose-50 relative overflow-hidden">
+    <section id="benefits" className="py-20 bg-gradient-to-br from-pink-50 via-white to-rose-50 relative overflow-hidden" ref={sectionRef}>
       {/* Decorative Background */}
       <div className="absolute top-10 left-10 w-72 h-72 bg-pink-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-rose-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20"></div>
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Cara <span className="text-pink-500">Menggunakannya</span>
           </h2>
@@ -50,7 +75,7 @@ const HowItWorks = () => {
         {/* Steps Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
-            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white">
+            <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-white scroll-reveal card-hover" style={{ animationDelay: `${index * 0.1}s` }}>
               <CardContent className="p-8">
                 <div className="flex flex-col items-center text-center space-y-4">
                   {/* Icon with Number Badge */}
@@ -75,7 +100,7 @@ const HowItWorks = () => {
         </div>
 
         {/* Info Box */}
-        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+        <div className="mt-16 bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto scroll-reveal">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Takaran Konsumsi</h3>
