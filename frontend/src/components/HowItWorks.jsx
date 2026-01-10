@@ -28,7 +28,6 @@ const HowItWorks = () => {
     };
   }, []);
 
-const HowItWorks = () => {
   const steps = [
     {
       icon: <Coffee className="w-10 h-10" />,
