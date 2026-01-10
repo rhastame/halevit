@@ -10,35 +10,35 @@ const FAQ = () => {
   const faqs = [
     {
       question: 'Apa itu Halevit Fiber?',
-      answer: 'Suplemen serat berbentuk serbuk dengan 2 varian rasa yang bisa membantu melancarkan pencernaan, detox usus, mencegah kolesterol dan membuat tubuh lebih fit'
+      answer: 'Halevit Fiber adalah minuman serat berbentuk serbuk dengan 2 varian rasa yang membantu melancarkan pencernaan, menjaga kesehatan usus, membantu BAB lebih teratur, dan mendukung gaya hidup sehat sehari-hari.'
     },
     {
-      question: 'Apakah produk Halevit aman dikonsumsi?',
-      answer: 'Ya, sangat aman! Halevit terbuat dari 100% bahan alami, tanpa gula tambahan, dan telah tersertifikasi Halal serta BPOM. Produk kami telah diuji secara klinis dan aman untuk dikonsumsi jangka panjang.'
+      question: 'Apakah Halevit Fiber aman dikonsumsi setiap hari?',
+      answer: 'Ya, Halevit Fiber aman untuk dikonsumsi setiap hari. Terbuat dari bahan alami, tanpa gula tambahan, serta telah terdaftar BPOM dan bersertifikat Halal.'
     },
     {
-      question: 'Berapa lama saya bisa melihat hasilnya?',
-      answer: 'Hasil dapat bervariasi untuk setiap individu. Namun, sebagian besar pengguna merasakan perubahan pada pencernaan dalam 1-2 minggu pertama. Untuk hasil optimal pada berat badan dan kecantikan kulit, konsumsi rutin selama 1-3 bulan.'
+      question: 'Kapan hasil konsumsi Halevit Fiber bisa dirasakan?',
+      answer: 'Hasil dapat berbeda pada setiap orang. Umumnya, pencernaan terasa lebih lancar dalam 1–2 minggu konsumsi rutin. Untuk hasil yang lebih optimal, disarankan konsumsi secara teratur.'
     },
     {
-      question: 'Bagaimana cara konsumsi yang benar?',
-      answer: 'Larutkan 1 sachet halevit fiber dengan air 150ml diminum setiap malam sebelum tidur.'
+      question: 'Bagaimana cara minum Halevit Fiber yang benar?',
+      answer: 'Larutkan 1 sachet Halevit Fiber ke dalam 150 ml air, lalu minum setiap malam sebelum tidur untuk membantu menjaga pencernaan.'
     },
     {
-      question: 'Apakah ada efek samping?',
-      answer: 'Halevit terbuat dari bahan alami dan umumnya tidak menimbulkan efek samping. Namun, jika Anda memiliki kondisi medis tertentu atau sedang hamil/menyusui, konsultasikan dengan dokter terlebih dahulu.'
+      question: 'Apakah Halevit Fiber menimbulkan efek samping?',
+      answer: 'Halevit Fiber dibuat dari bahan alami dan umumnya tidak menimbulkan efek samping.'
     },
     {
-      question: 'Apakah cocok untuk ibu hamil dan menyusui?',
-      answer: 'Meskipun Halevit terbuat dari bahan alami, kami sarankan untuk berkonsultasi dengan dokter kandungan Anda terlebih dahulu sebelum mengonsumsi suplemen apapun selama kehamilan atau menyusui.'
+      question: 'Apakah Halevit Fiber aman untuk ibu hamil dan menyusui?',
+      answer: 'Untuk ibu hamil dan menyusui, disarankan berkonsultasi terlebih dahulu dengan dokter sebelum mengonsumsi Halevit Fiber atau suplemen lainnya.'
     },
     {
-      question: 'Apakah Halevit bisa dikonsumsi bersamaan dengan obat lain?',
-      answer: 'Halevit umumnya aman dikonsumsi bersamaan dengan obat lain. Namun, untuk memastikan tidak ada interaksi, sebaiknya konsumsi Halevit dengan jarak 2 jam dari obat-obatan lain atau konsultasikan dengan dokter Anda.'
+      question: 'Apakah Halevit Fiber bisa diminum bersamaan dengan obat?',
+      answer: 'Halevit Fiber aman dikonsumsi bersamaan dengan obat lain. Untuk hasil terbaik, beri jeda sekitar 1–2 jam atau konsultasikan dengan tenaga medis.'
     },
     {
-      question: 'Dimana saya bisa membeli produk Halevit?',
-      answer: 'Anda bisa membeli produk Halevit secara online melalui official store kami di Tokopedia, Tiktokshop, dan Shopee. Klik tombol beli sekarang di website ini untuk langsung menuju ke marketplace pilihan anda.'
+      question: 'Di mana bisa membeli Halevit Fiber?',
+      answer: 'Halevit Fiber tersedia di official store Halevit di Tokopedia, Shopee, dan TikTok Shop. Klik tombol beli sekarang untuk menuju marketplace pilihan Anda.'
     }
   ];
 

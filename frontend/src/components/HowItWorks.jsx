@@ -8,25 +8,25 @@ const HowItWorks = () => {
       icon: <Coffee className="w-10 h-10" />,
       step: 'Langkah 1',
       title: 'Konsumsi Rutin',
-      description: 'Minum Halevit Fiber setiap pagi dan Jelly Collagen sebagai snack sehat'
+      description: 'Minum Halevit Fiber setiap malam sebelum tidur sebagai rutinitas minuman serat harian untuk menjaga pencernaan.'
     },
     {
       icon: <Clock className="w-10 h-10" />,
       step: 'Langkah 2',
-      title: 'Tunggu Prosesnya',
-      description: 'Biarkan kandungan alami bekerja melancarkan pencernaan dan menutrisi kulit'
+      title: 'Biarkan Serat Bekerja',
+      description: 'Saat tubuh beristirahat, kandungan serat membantu melancarkan pencernaan secara alami.'
     },
     {
       icon: <Smile className="w-10 h-10" />,
       step: 'Langkah 3',
       title: 'Rasakan Manfaatnya',
-      description: 'Pencernaan lancar, berat badan terkontrol, kulit glowing'
+      description: 'Bangun dengan perut lebih nyaman, BAB lebih teratur, dan tubuh terasa lebih ringan.'
     },
     {
       icon: <TrendingUp className="w-10 h-10" />,
       step: 'Langkah 4',
-      title: 'Hidup Lebih Sehat',
-      description: 'Nikmati gaya hidup sehat dengan percaya diri dan penuh energi'
+      title: 'Jalani Hidup Lebih Sehat',
+      description: 'Mulai hari dengan pencernaan lebih sehat dan tubuh siap beraktivitas.'
     }
   ];
 

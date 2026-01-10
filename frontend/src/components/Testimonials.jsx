@@ -5,52 +5,52 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Siti Nurhaliza',
-      age: 32,
+      name: 'Siti R.',
+      age: 34,
       role: 'Ibu Rumah Tangga',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Siti',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=SitiRahma',
       rating: 5,
-      text: 'Setelah rutin konsumsi Halevit Fiber, pencernaan saya jadi lancar banget! Berat badan juga turun 5kg dalam 2 bulan. Recommended!'
+      text: 'Ini sudah order kedua. Efeknya terasa tapi tetap nyaman, nggak bikin perut kaget keesokan harinya. Rasanya juga manis segar, jadi enak diminum rutin.'
     },
     {
-      name: 'Rina Wijaya',
-      age: 28,
-      role: 'Marketing Executive',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Rina',
+      name: 'Andi P.',
+      age: 29,
+      role: 'Karyawan Swasta',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Andi',
       rating: 5,
-      text: 'Jelly Collagen Lychee-nya enak banget! Kulit saya jadi lebih cerah dan glowing. Teman-teman kantor sampai tanya pakai skincare apa 😊'
+      text: 'Halevit sudah jadi andalan saya. Minum rutin bikin BAB lebih lancar dan badan terasa lebih ringan. Recommended banget buat yang peduli pencernaan.'
     },
     {
-      name: 'Dr. Ahmad Fauzi',
-      age: 45,
-      role: 'Dokter Umum',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmad',
-      rating: 5,
-      text: 'Sebagai tenaga medis, saya merekomendasikan Halevit untuk pasien yang ingin menjaga kesehatan pencernaan dengan cara alami dan aman.'
-    },
-    {
-      name: 'Maya Putri',
-      age: 35,
-      role: 'Fitness Instructor',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Maya',
-      rating: 5,
-      text: 'Perfect untuk mendukung program diet saya! Halevit Fiber bikin kenyang lebih lama, jadi nggak ngemil sembarangan. Love it!'
-    },
-    {
-      name: 'Dewi Santika',
-      age: 52,
-      role: 'Pensiunan',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Dewi',
-      rating: 5,
-      text: 'Di usia saya yang sudah 50+, pencernaan sering bermasalah. Alhamdulillah setelah minum Halevit rutin, masalah BAB saya teratasi.'
-    },
-    {
-      name: 'Lisa Anggraini',
-      age: 26,
+      name: 'Rina O.',
+      age: 27,
       role: 'Content Creator',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Lisa',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=RinaO',
       rating: 5,
-      text: 'Produk favorit! Rasanya enak, praktis, dan hasilnya nyata. Kulit glowing dan badan lebih fit. Wajib stock di rumah!'
+      text: 'Produknya original, packing rapi dan segel aman. Setelah rutin konsumsi, pencernaan jadi lebih teratur dan perut terasa nyaman.'
+    },
+    {
+      name: 'Budi S.',
+      age: 41,
+      role: 'Pengusaha Kuliner',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Budi',
+      rating: 5,
+      text: 'Biasanya minum setelah sering makan banyak. Perut jadi lebih nyaman dan nggak terasa penuh. Rasanya juga seger.'
+    },
+    {
+      name: 'Dewi L.',
+      age: 52,
+      role: 'Ibu Rumah Tangga',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=DewiL',
+      rating: 5,
+      text: 'Sangat membantu melancarkan BAB. Cocok diminum harian dan nggak bikin perut begah. Puas dengan hasilnya.'
+    },
+    {
+      name: 'Fajar N.',
+      age: 25,
+      role: 'Mahasiswa',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Fajar',
+      rating: 5,
+      text: 'Polanya simpel, minum malam sebelum tidur. Paginya lebih lancar dan badan terasa lebih fresh. Cocok buat yang aktivitasnya padat.'
     }
   ];
 
