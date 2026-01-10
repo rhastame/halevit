@@ -29,9 +29,9 @@ const CTA = () => {
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/v7jj6e1k_gojiberry3.jpg"
                     alt="Halevit Fiber Gojiberry"
-                    className="h-32 w-auto"
+                    className="h-32 w-auto object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Gojiberry</h3>
@@ -56,9 +56,9 @@ const CTA = () => {
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/kjdfjw8u_apple-cranberry1.jpg"
                     alt="Halevit Fiber Apple Cranberry"
-                    className="h-32 w-auto"
+                    className="h-32 w-auto object-contain"
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Apple Cranberry</h3>
