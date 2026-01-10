@@ -6,18 +6,28 @@ const Products = () => {
   const fiberBenefits = [
     {
       icon: <Activity className="w-8 h-8" />,
-      title: 'Melancarkan Pencernaan',
-      description: 'Membantu melancarkan BAB dan menjaga kesehatan sistem pencernaan Anda'
+      title: 'Melancarkan pencernaan dan BAB',
+      description: 'Membantu melancarkan BAB dan menjaga pencernaan tetap sehat, sehingga perut terasa lebih nyaman setiap hari.'
     },
     {
-      icon: <Scale className="w-8 h-8" />,
-      title: 'Kontrol Berat Badan',
-      description: 'Memberi rasa kenyang lebih lama, membantu menurunkan dan menjaga berat badan ideal'
+      icon: <Droplet className="w-8 h-8" />,
+      title: 'Mengikat minyak dan lemak di usus',
+      description: 'Serat membantu mengikat minyak dan lemak berlebih di usus agar tidak terserap terlalu banyak oleh tubuh.'
+    },
+    {
+      icon: <Shield className="w-8 h-8" />,
+      title: 'Membantu menjaga kadar kolesterol',
+      description: 'Mendukung keseimbangan kadar kolesterol sebagai bagian dari pola makan dan gaya hidup sehat.'
     },
     {
       icon: <Flame className="w-8 h-8" />,
-      title: 'Detoksifikasi Alami',
-      description: 'Membersihkan racun dalam tubuh dan meningkatkan metabolisme secara natural'
+      title: 'Detoksifikasi alami tubuh',
+      description: 'Membantu proses pembuangan racun dari dalam tubuh dan mendukung metabolisme secara alami.'
+    },
+    {
+      icon: <Scale className="w-8 h-8" />,
+      title: 'Membantu kontrol berat badan',
+      description: 'Memberi rasa kenyang lebih lama untuk membantu menjaga dan mengontrol berat badan ideal.'
     }
   ];
 
