@@ -78,7 +78,7 @@ const CTA = () => {
                   </li>
                 </ul>
               </div>
-            </div> */}
+            </div>
 
             {/* Purchase Buttons */}
             <div className="space-y-6">
