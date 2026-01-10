@@ -25,8 +25,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Nikmati kelezatan dalam setiap tegukan bersama <span className="font-semibold text-pink-600">
-                Halevit Apple Cranberry dan Gojiberry</span>, suplemen serat yang bisa bantu lancarkan pencernaan dan buat tubuh lebih fit.
+              Nikmati kelezatan <span className="font-semibold text-pink-600">
+                Halevit Apple Cranberry dan Gojiberry</span>, minuman serat lezat yang membantu melancarkan pencernaan dan membuat tubuh terasa lebih fit.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
