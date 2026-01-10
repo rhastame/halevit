@@ -25,56 +25,56 @@ const CTA = () => {
 
             {/* Product Cards */}
             <div className="grid md:grid-cols-2 gap-8 mb-10">
-              {/* Fiber Product */}
+              {/* Gojiberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
                     src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
-                    alt="Halevit Fiber"
+                    alt="Halevit Fiber Gojiberry"
                     className="h-32 w-auto"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber</h3>
-                <p className="text-gray-600 text-center mb-4">Rasa Gojiberry - Melancarkan Pencernaan</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Gojiberry</h3>
+                <p className="text-gray-600 text-center mb-4 text-sm">Kombinasi acaiberry, gojiberry, dan guarana - Untuk pecinta kuliner</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Melancarkan BAB
+                    Mengikat lemak berlebih
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-pink-500 mr-2">✓</span>
+                    Detoks maksimal setelah makan besar
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
                     Kontrol berat badan
                   </li>
-                  <li className="flex items-center">
-                    <span className="text-pink-500 mr-2">✓</span>
-                    Detoksifikasi alami
-                  </li>
                 </ul>
               </div>
 
-              {/* Collagen Product */}
+              {/* Apple Cranberry Product */}
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
                 <div className="flex items-center justify-center mb-4">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/aismv8sd_halevitcollagen.png"
-                    alt="Halevit Collagen"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    alt="Halevit Fiber Apple Cranberry"
                     className="h-32 w-auto"
                   />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Jelly Collagen</h3>
-                <p className="text-gray-600 text-center mb-4">Rasa Lychee - Kulit Glowing</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Apple Cranberry</h3>
+                <p className="text-gray-600 text-center mb-4 text-sm">Perpaduan apel dan cranberry - Untuk yang aktif bergerak</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Kulit glowing & elastis
+                    Melancarkan BAB tanpa begah
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Antioksidan tinggi
+                    Detoks ringan untuk aktivitas padat
                   </li>
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
-                    Meningkatkan imunitas
+                    Kaya antioksidan alami
                   </li>
                 </ul>
               </div>
