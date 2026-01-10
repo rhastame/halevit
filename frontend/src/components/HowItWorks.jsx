@@ -33,25 +33,25 @@ const HowItWorks = () => {
       icon: <Coffee className="w-10 h-10" />,
       step: 'Langkah 1',
       title: 'Konsumsi Rutin',
-      description: 'Minum Halevit Fiber setiap pagi sesuai dengan gaya hidup Anda'
+      description: 'Minum Halevit Fiber setiap malam sebelum tidur sebagai rutinitas minuman serat harian.'
     },
     {
       icon: <Clock className="w-10 h-10" />,
       step: 'Langkah 2',
-      title: 'Tunggu Prosesnya',
-      description: 'Biarkan kandungan alami bekerja melancarkan pencernaan dan menutrisi kulit'
+      title: 'Biarkan Serat Bekerja',
+      description: 'Saat tubuh beristirahat, kandungan serat membantu melancarkan pencernaan secara alami.'
     },
     {
       icon: <Smile className="w-10 h-10" />,
       step: 'Langkah 3',
       title: 'Rasakan Manfaatnya',
-      description: 'Pencernaan lancar, berat badan terkontrol, kulit glowing'
+      description: 'Bangun dengan perut lebih nyaman, BAB lebih teratur, dan tubuh terasa lebih ringan.'
     },
     {
       icon: <TrendingUp className="w-10 h-10" />,
       step: 'Langkah 4',
-      title: 'Hidup Lebih Sehat',
-      description: 'Nikmati gaya hidup sehat dengan percaya diri dan penuh energi'
+      title: 'Jalani Hidup Lebih Sehat',
+      description: 'Mulai hari dengan pencernaan lebih sehat dan tubuh siap beraktivitas.'
     }
   ];
 
@@ -107,12 +107,12 @@ const HowItWorks = () => {
               <div className="space-y-3">
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700"><span className="font-semibold">Halevit Fiber:</span> 1 sachet setiap pagi, larutkan dalam 200ml air</p>
+                  <p className="text-gray-700"><span className="font-semibold">Halevit Fiber:</span> 1 sachet setiap malam sebelum tidur, larutkan dalam 150ml air.</p>
                 </div>
-                <div className="flex items-start space-x-3">
+                {/* <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-pink-500 rounded-full mt-2"></div>
-                  <p className="text-gray-700"><span className="font-semibold">Pilih varian:</span> Gojiberry untuk pecinta kuliner, Apple Cranberry untuk yang aktif</p>
-                </div>
+                  <p className="text-gray-700"><span className="font-semibold">Jelly Collagen:</span> 1-2 sachet per hari sebagai snack</p>
+                </div> */}
               </div>
             </div>
             <div>

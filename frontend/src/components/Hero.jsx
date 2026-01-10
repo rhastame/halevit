@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Nikmati kelezatan dalam setiap tegukan bersama <span className="font-semibold text-pink-600">Halevit Fiber</span> dengan dua varian pilihan: <span className="font-semibold text-pink-600">Gojiberry</span> untuk pecinta kuliner dan <span className="font-semibold text-pink-600">Apple Cranberry</span> untuk yang aktif, karena dapat memberi rasa kenyang lebih lama serta menjaga kesehatan pencernaan Anda.
+              Nikmati kelezatan <span className="font-semibold text-pink-600">Halevit Gojiberry dan Apple Cranberry</span>, minuman serat lezat yang membantu melancarkan pencernaan dan membuat tubuh terasa lebih fit.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 animate-float">
               <img
-                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/iqj70vu7_hero-section-fix.png"
+                src="../images/hero-section-fix.png"
                 alt="Halevit Products"
                 className="w-full h-auto"
                 style={{ filter: 'drop-shadow(0 30px 50px rgba(236, 72, 153, 0.3))' }}

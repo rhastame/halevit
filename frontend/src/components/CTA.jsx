@@ -54,7 +54,7 @@ const CTA = () => {
               <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors group">
                 <div className="flex items-center justify-center mb-4 h-40">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/x3ziheoh_gojiberry-fix2.png"
+                    src="../images/gojiberry-fix2.png"
                     alt="Halevit Fiber Gojiberry"
                     className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-110"
                     style={{ filter: 'drop-shadow(0 10px 20px rgba(236, 72, 153, 0.3))' }}
@@ -80,11 +80,11 @@ const CTA = () => {
 
               {/* Apple Cranberry Product */}
               <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200 hover:border-green-400 transition-colors group">
-                <div className="flex items-center justify-center mb-4 h-40">
+                <div className="flex items-center justify-center mb-6 h-40">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/4uzctzq2_apple-cranberry-fix.png"
+                    src="../images/apple-cranberry-fix.png"
                     alt="Halevit Fiber Apple Cranberry"
-                    className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+                    className="h-60 w-auto object-contain transition-transform duration-300 group-hover:scale-110"
                     style={{ filter: 'drop-shadow(0 10px 20px rgba(34, 197, 94, 0.3))' }}
                   />
                 </div>
@@ -111,7 +111,7 @@ const CTA = () => {
             <div className="space-y-6 scroll-reveal">
               <div className="text-center">
                 <p className="text-gray-700 font-semibold mb-4 text-lg">
-                  Beli di Official Store Kami
+                  Beli Sekarang!
                 </p>
               </div>
 
@@ -186,9 +186,8 @@ const CTA = () => {
           </div>
 
           {/* Promo Banner */}
-          <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg scroll-reveal">
-            <p className="text-2xl font-bold mb-2">⚡ Promo Spesial!</p>
-            <p className="text-lg">Dapatkan diskon hingga 30% + Gratis Ongkir untuk pembelian hari ini!</p>
+          <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg">
+            <p className="text-2xl font-bold mb-2">#StayFitWithHalevit</p>
           </div>
         </div>
       </div>
