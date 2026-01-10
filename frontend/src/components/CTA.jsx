@@ -138,7 +138,7 @@ const CTA = () => {
             </div>
 
             {/* Trust Badges */}
-            {/* <div className="mt-10 pt-8 border-t border-gray-200">
+            <div className="mt-10 pt-8 border-t border-gray-200">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
@@ -157,7 +157,7 @@ const CTA = () => {
                   <p className="text-sm text-gray-600">Terjual</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* Promo Banner */}
