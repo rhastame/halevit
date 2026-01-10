@@ -8,7 +8,7 @@ const HowItWorks = () => {
       icon: <Coffee className="w-10 h-10" />,
       step: 'Langkah 1',
       title: 'Konsumsi Rutin',
-      description: 'Minum Halevit Fiber setiap malam sebelum tidur sebagai rutinitas minuman serat harian untuk menjaga pencernaan.'
+      description: 'Minum Halevit Fiber setiap malam sebelum tidur sebagai rutinitas minuman serat harian.'
     },
     {
       icon: <Clock className="w-10 h-10" />,
