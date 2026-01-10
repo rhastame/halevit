@@ -26,12 +26,13 @@ const CTA = () => {
             {/* Product Cards */}
             <div className="grid md:grid-cols-2 gap-8 mb-10">
               {/* Gojiberry Product */}
-              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
-                <div className="flex items-center justify-center mb-4">
+              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors group">
+                <div className="flex items-center justify-center mb-4 h-40">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/eoqg0hbx_gojiberry3.png"
                     alt="Halevit Fiber Gojiberry"
-                    className="h-32 w-auto"
+                    className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+                    style={{ filter: 'drop-shadow(0 10px 20px rgba(236, 72, 153, 0.3))' }}
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Gojiberry</h3>
@@ -53,27 +54,28 @@ const CTA = () => {
               </div>
 
               {/* Apple Cranberry Product */}
-              <div className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-6 border-2 border-pink-200 hover:border-pink-400 transition-colors">
-                <div className="flex items-center justify-center mb-4">
+              <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 border-2 border-green-200 hover:border-green-400 transition-colors group">
+                <div className="flex items-center justify-center mb-4 h-40">
                   <img
-                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/y6ra1gt2_halevitfiber.png"
+                    src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/qao5b4rt_apple-cranberry1.png"
                     alt="Halevit Fiber Apple Cranberry"
-                    className="h-32 w-auto"
+                    className="h-full w-auto object-contain transition-transform duration-300 group-hover:scale-110"
+                    style={{ filter: 'drop-shadow(0 10px 20px rgba(34, 197, 94, 0.3))' }}
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Apple Cranberry</h3>
                 <p className="text-gray-600 text-center mb-4 text-sm">Perpaduan apel dan cranberry - Untuk yang aktif bergerak</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
-                    <span className="text-pink-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">✓</span>
                     Melancarkan BAB tanpa begah
                   </li>
                   <li className="flex items-center">
-                    <span className="text-pink-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">✓</span>
                     Detoks ringan untuk aktivitas padat
                   </li>
                   <li className="flex items-center">
-                    <span className="text-pink-500 mr-2">✓</span>
+                    <span className="text-green-500 mr-2">✓</span>
                     Kaya antioksidan alami
                   </li>
                 </ul>

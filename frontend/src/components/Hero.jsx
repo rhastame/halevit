@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import HeroCombo from './HeroCombo';
 
 const Hero = () => {
   return (
@@ -25,8 +26,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Nikmati kelezatan <span className="font-semibold text-pink-600">
-                Halevit Apple Cranberry dan Gojiberry</span>, minuman serat lezat yang membantu melancarkan pencernaan dan membuat tubuh terasa lebih fit.
+              Nikmati kelezatan dalam setiap tegukan bersama <span className="font-semibold text-pink-600">Halevit Fiber</span> dengan dua varian pilihan: <span className="font-semibold text-pink-600">Gojiberry</span> untuk pecinta kuliner dan <span className="font-semibold text-pink-600">Apple Cranberry</span> untuk yang aktif, karena dapat memberi rasa kenyang lebih lama serta menjaga kesehatan pencernaan Anda.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -79,16 +79,11 @@ const Hero = () => {
           </div>
 
           {/* Right Content - Product Images */}
-          <div className="relative">
-            <div className="relative z-10 animate-float">
-              <img
-                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/g7smw5ee_halevit1.png"
-                alt="Halevit Products"
-                className="w-full h-auto drop-shadow-2xl"
-              />
-            </div>
-            {/* Background Circle */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-200 rounded-full filter blur-3xl opacity-40"></div>
+          <div className="relative h-[500px]">
+            <HeroCombo />
+            {/* Background Circles */}
+            <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-pink-200 rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-green-200 rounded-full filter blur-3xl opacity-30 animate-pulse" style={{ animationDelay: '1s' }}></div>
           </div>
         </div>
       </div>
