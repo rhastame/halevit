@@ -81,7 +81,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 animate-float">
               <img
-                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/g7smw5ee_halevit1.png"
+                src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/lgqvwyec_apple-cranberry%20dan%20fojiberry.jpg"
                 alt="Halevit Products"
                 className="w-full h-auto drop-shadow-2xl"
               />
