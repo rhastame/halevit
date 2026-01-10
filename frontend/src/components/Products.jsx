@@ -134,12 +134,12 @@ const Products = () => {
                 Perpaduan rasa asam-manis dari <span className="font-semibold text-pink-600">apel dan cranberry</span> yang kaya antioksidan, dengan detoks yang lebih ringan—pas untuk kamu yang <span className="font-semibold">aktif bergerak dan jarang makan berat.</span>
               </p>
 
-              <div className="grid gap-4">
+              <div className="grid sm:grid-cols-2 gap-4">
                 {appleCranberryBenefits.map((benefit, index) => (
                   <Card key={index} className="border-none shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
                     <CardContent className="p-4">
-                      <div className="flex items-start space-x-3">
-                        <div className="flex-shrink-0 w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-pink-500">
+                      <div className="flex flex-col items-center text-center space-y-3">
+                        <div className="w-14 h-14 bg-pink-100 rounded-full flex items-center justify-center text-pink-500">
                           {benefit.icon}
                         </div>
                         <div>
