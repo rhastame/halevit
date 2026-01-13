@@ -134,10 +134,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Halevit. All rights reserved.
-          </p>
-          <p className="text-gray-400 mt-2">
-            Ingin bermitra bersama Halevit? Hubungi Customer Service kami
+            © {new Date().getFullYear()} Halevit. All rights reserved. | #StayFitWithHalevit
           </p>
           <p className="text-gray-500 text-sm mt-2">
             BPOM & Halal Certified | Made with ❤️ in Indonesia
