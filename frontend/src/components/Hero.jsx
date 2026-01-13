@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in-up">
             <div className="inline-flex items-center space-x-2 bg-pink-100 text-pink-600 px-4 py-2 rounded-full text-sm font-semibold">
               <Sparkles className="w-4 h-4" />
-              <span>#StayFitWithHalevit</span>
+              <span>#Stayfitwithhalevit</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">

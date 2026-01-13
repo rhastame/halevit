@@ -98,7 +98,7 @@ const Products = () => {
                 Halevit Fiber – Gojiberry
               </h3>
               <p className="text-lg text-gray-600 mb-8">
-                Kombinasi <span className="font-semibold text-pink-600">acaiberry, gojiberry, dan guarana</span> dengan manis alami yang cocok untuk kamu yang <span className="font-semibold">sering makan banyak dan hobi kuliner.</span>
+                Kombinasi <span className="font-semibold text-pink-600">gojiberry, acaiberry, dan guarana</span> dengan manis alami yang cocok untuk kamu yang <span className="font-semibold">sering makan banyak dan hobi kuliner.</span>
               </p>
 
               <div className="space-y-6">

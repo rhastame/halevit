@@ -61,7 +61,7 @@ const CTA = () => {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2 text-center">Halevit Fiber Gojiberry</h3>
-                <p className="text-gray-600 text-center mb-4 text-sm">Kombinasi acaiberry, gojiberry, dan guarana - Untuk pecinta kuliner</p>
+                <p className="text-gray-600 text-center mb-4 text-sm">Kombinasi gojiberry, acaiberry, dan guarana - Untuk pecinta kuliner</p>
                 <ul className="space-y-2 mb-6 text-sm text-gray-700">
                   <li className="flex items-center">
                     <span className="text-pink-500 mr-2">✓</span>
@@ -187,7 +187,7 @@ const CTA = () => {
 
           {/* Promo Banner */}
           <div className="mt-8 bg-pink-500 text-white rounded-2xl p-6 text-center shadow-lg">
-            <p className="text-2xl font-bold mb-2">#StayFitWithHalevit</p>
+            <p className="text-2xl font-bold mb-2">#Stayfitwithhalevit</p>
           </div>
         </div>
       </div>
