@@ -39,7 +39,7 @@ const FAQ = () => {
     },
     {
       question: 'Apakah Halevit Fiber aman dikonsumsi setiap hari?',
-      answer: 'Ya, Halevit Fiber aman untuk dikonsumsi setiap hari. Terbuat dari bahan alami, tanpa gula tambahan, serta telah terdaftar BPOM dan bersertifikat Halal.'
+      answer: 'Ya, Halevit Fiber aman untuk dikonsumsi setiap hari. Terbuat dari bahan alami, tinggi serat,     bebas gula tambahan, serta telah terdaftar BPOM dan bersertifikat Halal.'
     },
     {
       question: 'Kapan hasil konsumsi Halevit Fiber bisa dirasakan?',
