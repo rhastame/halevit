@@ -123,11 +123,12 @@ const CTA = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M10.5 3C6.36 3 3 6.36 3 10.5c0 4.14 3.36 7.5 7.5 7.5s7.5-3.36 7.5-7.5S14.64 3 10.5 3zm0 13.5c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/>
-                      <circle cx="10.5" cy="10.5" r="2.5"/>
-                    </svg>
+                  <Button className="w-full bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <img 
+                      src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/og5cj586_logo%20toped.png" 
+                      alt="Tokopedia" 
+                      className="h-6 mr-2"
+                    />
                     Beli di Tokopedia
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
@@ -140,11 +141,12 @@ const CTA = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M19.8 7.5c-.6-.4-1.4-.6-2.2-.6-.8 0-1.6.2-2.2.6L12 10.2 8.6 7.5c-.6-.4-1.4-.6-2.2-.6-.8 0-1.6.2-2.2.6-.6.4-1 1-1.2 1.7-.2.7-.2 1.4 0 2.1.2.7.6 1.3 1.2 1.7l4.8 3.2c.4.3 1 .5 1.6.5s1.2-.2 1.6-.5l4.8-3.2c.6-.4 1-.9 1.2-1.7.2-.7.2-1.4 0-2.1-.2-.7-.6-1.3-1.2-1.7z"/>
-                      <path d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 16.5c-4.14 0-7.5-3.36-7.5-7.5S7.86 4.5 12 4.5s7.5 3.36 7.5 7.5-3.36 7.5-7.5 7.5z"/>
-                    </svg>
+                  <Button className="w-full bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                    <img 
+                      src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/ryms579u_logo%20shopee.png" 
+                      alt="Shopee" 
+                      className="h-6 mr-2"
+                    />
                     Beli di Shopee
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
