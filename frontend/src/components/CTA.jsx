@@ -124,7 +124,11 @@ const CTA = () => {
                   className="block"
                 >
                   <Button className="w-full bg-green-500 hover:bg-green-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <ShoppingBag className="w-5 h-5 mr-2" />
+                    <img 
+                      src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/og5cj586_logo%20toped.png" 
+                      alt="Tokopedia" 
+                      className="h-6 mr-2 brightness-0 invert"
+                    />
                     Beli di Tokopedia
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
@@ -138,7 +142,11 @@ const CTA = () => {
                   className="block"
                 >
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <ShoppingBag className="w-5 h-5 mr-2" />
+                    <img 
+                      src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/ryms579u_logo%20shopee.png" 
+                      alt="Shopee" 
+                      className="h-6 mr-2 brightness-0 invert"
+                    />
                     Beli di Shopee
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </Button>
@@ -164,7 +172,7 @@ const CTA = () => {
 
             {/* Trust Badges */}
             <div className="mt-10 pt-8 border-t border-gray-200 scroll-reveal">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
                   <p className="text-sm text-gray-600">Original</p>
@@ -180,6 +188,14 @@ const CTA = () => {
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">10K+</div>
                   <p className="text-sm text-gray-600">Terjual</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">Tinggi</div>
+                  <p className="text-sm text-gray-600">Serat</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">Bebas</div>
+                  <p className="text-sm text-gray-600">Gula</p>
                 </div>
               </div>
             </div>

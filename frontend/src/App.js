@@ -6,6 +6,7 @@ import Products from './components/Products';
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
+import ContactUs from './components/ContactUs';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 // import StickyFloatingCTA from './components/StickyFloatingCTA';
@@ -19,6 +20,7 @@ function App() {
       <HowItWorks />
       <Testimonials />
       <FAQ />
+      <ContactUs />
       <CTA />
       <Footer />
       {/* <StickyFloatingCTA /> */}
