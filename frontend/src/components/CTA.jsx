@@ -170,7 +170,7 @@ const CTA = () => {
 
             {/* Trust Badges */}
             <div className="mt-10 pt-8 border-t border-gray-200 scroll-reveal">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">100%</div>
                   <p className="text-sm text-gray-600">Original</p>
@@ -186,6 +186,14 @@ const CTA = () => {
                 <div>
                   <div className="text-3xl font-bold text-pink-500 mb-1">10K+</div>
                   <p className="text-sm text-gray-600">Terjual</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">Tinggi</div>
+                  <p className="text-sm text-gray-600">Serat</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-pink-500 mb-1">Bebas</div>
+                  <p className="text-sm text-gray-600">Gula</p>
                 </div>
               </div>
             </div>
