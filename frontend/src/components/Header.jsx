@@ -19,7 +19,8 @@ const Header = () => {
     { name: 'Produk', href: '#products' },
     { name: 'Manfaat', href: '#benefits' },
     { name: 'Testimoni', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' }
+    { name: 'FAQ', href: '#faq' },
+    { name: 'Contact Us', href: '#footer' }
   ];
 
   return (
