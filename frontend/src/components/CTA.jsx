@@ -123,11 +123,11 @@ const CTA = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <Button className="w-full bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                  <Button className="w-full bg-green-500 hover:bg-green-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
                     <img 
                       src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/og5cj586_logo%20toped.png" 
                       alt="Tokopedia" 
-                      className="h-6 mr-2"
+                      className="h-6 mr-2 brightness-0 invert"
                     />
                     Beli di Tokopedia
                     <ExternalLink className="w-4 h-4 ml-2" />
@@ -141,11 +141,11 @@ const CTA = () => {
                   rel="noopener noreferrer"
                   className="block"
                 >
-                  <Button className="w-full bg-white hover:bg-gray-50 text-gray-900 border-2 border-gray-200 rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                  <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white rounded-full py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg">
                     <img 
                       src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/ryms579u_logo%20shopee.png" 
                       alt="Shopee" 
-                      className="h-6 mr-2"
+                      className="h-6 mr-2 brightness-0 invert"
                     />
                     Beli di Shopee
                     <ExternalLink className="w-4 h-4 ml-2" />
