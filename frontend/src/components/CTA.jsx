@@ -127,7 +127,7 @@ const CTA = () => {
                     <img 
                       src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/og5cj586_logo%20toped.png" 
                       alt="Tokopedia" 
-                      className="h-6 mr-2 brightness-0 invert"
+                      className="h-6 w-12 h-auto"
                     />
                     Beli di Tokopedia
                     <ExternalLink className="w-4 h-4 ml-2" />
@@ -145,7 +145,7 @@ const CTA = () => {
                     <img 
                       src="https://customer-assets.emergentagent.com/job_halevit-health/artifacts/ryms579u_logo%20shopee.png" 
                       alt="Shopee" 
-                      className="h-6 mr-2 brightness-0 invert"
+                      className="h-6 mr-2"
                     />
                     Beli di Shopee
                     <ExternalLink className="w-4 h-4 ml-2" />

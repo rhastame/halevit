@@ -30,52 +30,40 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: 'Siti R.',
-      age: 34,
-      role: 'Ibu Rumah Tangga',
+      name: 'a*****i',
       image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=SitiRahma',
       rating: 5,
-      text: 'Ini sudah order kedua. Efeknya terasa tapi tetap nyaman, nggak bikin perut kaget keesokan harinya. Rasanya juga manis segar, jadi enak diminum rutin.'
+      text: 'Manfaat Kesehatan: detox. Rasa: seger. Cocok untuk: yang habis makan banyak.'
     },
     {
-      name: 'Andi P.',
-      age: 29,
-      role: 'Karyawan Swasta',
+      name: 'Imelda',
       image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Andi',
       rating: 5,
-      text: 'Halevit sudah jadi andalan saya. Minum rutin bikin BAB lebih lancar dan badan terasa lebih ringan. Recommended banget buat yang peduli pencernaan.'
+      text: 'mantap sangat membantu melancarkan bab.'
     },
     {
-      name: 'Rina O.',
-      age: 27,
-      role: 'Content Creator',
+      name: 'm****o',
       image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=RinaO',
       rating: 5,
-      text: 'Produknya original, packing rapi dan segel aman. Setelah rutin konsumsi, pencernaan jadi lebih teratur dan perut terasa nyaman.'
+      text: 'Udah cobain beberapa brand. Ini yg paling cocok deh.. rasanya enak dan efek samping ny cocok. Ga lebay sakit perut nya. Akan repurchase lagi yang pasti 😍'
     },
     {
-      name: 'Budi S.',
-      age: 41,
-      role: 'Pengusaha Kuliner',
+      name: 'mila_ratachi',
       image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Budi',
       rating: 5,
-      text: 'Biasanya minum setelah sering makan banyak. Perut jadi lebih nyaman dan nggak terasa penuh. Rasanya juga seger.'
+      text: 'Cocok Untuk: kesehatan dan menurunkan berat badan. Manfaat: bisa menurunkan berat badan klo sehari minum 2x. Ini pembelian yang kedua, spy berat badan tetap stabil... 👍🏻👍🏻👍🏻👍🏻'
     },
     {
-      name: 'Dewi L.',
-      age: 52,
-      role: 'Ibu Rumah Tangga',
+      name: 'shindy_0712',
       image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=DewiL',
       rating: 5,
-      text: 'Sangat membantu melancarkan BAB. Cocok diminum harian dan nggak bikin perut begah. Puas dengan hasilnya.'
+      text: 'Respon cepet, pengiriman cepet. Ini sudah order ke 2x nya. Cocok dan ga mules berlebihan ke esokan nya. 👌🏻✨ Rasa nya juga enak, maniiiss seger.'
     },
     {
-      name: 'Fajar N.',
-      age: 25,
-      role: 'Mahasiswa',
-      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Fajar',
+      name: 'rita1828',
+      image: 'https://api.dicebear.com/7.x/avataaars/svg?seed=DewiL',
       rating: 5,
-      text: 'Polanya simpel, minum malam sebelum tidur. Paginya lebih lancar dan badan terasa lebih fresh. Cocok buat yang aktivitasnya padat.'
+      text: 'Jempol deh produknya👍..jd andalan sll!🙌..I love Halevit!❤️'
     }
   ];
 
@@ -114,7 +102,6 @@ const Testimonials = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.role}, {testimonial.age} tahun</p>
                   </div>
                 </div>
 
