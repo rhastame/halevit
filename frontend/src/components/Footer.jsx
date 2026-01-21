@@ -94,37 +94,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Marketplace Links */}
-        <div className="border-t border-gray-800 pt-8 mb-8">
-          <h3 className="text-lg font-bold mb-4 text-center">Official Store</h3>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a
-              href="https://www.tokopedia.com/halevit"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-gray-800 hover:bg-green-600 rounded-lg transition-colors font-semibold"
-            >
-              Tokopedia Official Store
-            </a>
-            <a
-              href="https://shopee.co.id/halevit_official"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-gray-800 hover:bg-orange-600 rounded-lg transition-colors font-semibold"
-            >
-              Shopee Official Store
-            </a>
-            <a
-              href="https://www.tiktok.com/@halevitfiber"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-6 py-3 bg-gray-800 hover:bg-black rounded-lg transition-colors font-semibold"
-            >
-              TikTok Shop Official
-            </a>
-          </div>
-        </div>
-
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">

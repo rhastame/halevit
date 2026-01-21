@@ -125,7 +125,7 @@ const Products = () => {
                 <img
                   src="../images/gojiberry-fix.png"
                   alt="Halevit Fiber Gojiberry"
-                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105 p-4 mt-2"
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105 p-4 mt-2"
                   style={{ 
                     filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
                     animation: 'float 3s ease-in-out infinite'
@@ -145,7 +145,7 @@ const Products = () => {
                 <img
                   src="../images/apple-cranberry-fix.png"
                   alt="Halevit Fiber Apple Cranberry"
-                  className="w-3/4 h-auto transition-transform duration-500 group-hover:scale-105"
+                  className="w-full h-auto transition-transform duration-500 group-hover:scale-105"
                   style={{ 
                     animationDelay: '0.5s',
                     filter: 'drop-shadow(0 30px 40px rgba(236, 72, 153, 0.4))',
