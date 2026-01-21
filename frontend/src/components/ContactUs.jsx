@@ -46,7 +46,7 @@ const ContactUs = () => {
             Hubungi <span className="text-pink-500">Kami</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Ingin bermitra bersama Halevit? Hubungi Customer Service kami
+            Ada pertanyaan terkait Halevit? Atau ingin bermitra dengan Halevit? Hubungi Customer Service kami
           </p>
         </div>
 
@@ -66,7 +66,7 @@ const ContactUs = () => {
                     WhatsApp Customer Service
                   </h3>
                   <p className="text-lg text-gray-600 mb-4">
-                    Hubungi kami untuk pertanyaan produk, kemitraan, atau konsultasi
+                    Hubungi kami untuk pembelian langsung, kemitraan, pertanyaan produk, atau konsultasi
                   </p>
                   <Button
                     onClick={handleWhatsAppClick}
