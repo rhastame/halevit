@@ -70,10 +70,19 @@ const Hero = () => {
                   <span className="text-2xl">✓</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Halal</p>
+                  <p className="font-semibold text-gray-900">Tinggi Serat</p>
+                  <p className="text-sm text-gray-600">High Fiber</p>
+                </div>
+              </div>               
+              <div className="flex items-center space-x-2">
+                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center">
+                  <span className="text-2xl">✓</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Halal & BPOM</p>
                   <p className="text-sm text-gray-600">Tersertifikasi</p>
                 </div>
-              </div>
+              </div>             
             </div>
           </div>
 
