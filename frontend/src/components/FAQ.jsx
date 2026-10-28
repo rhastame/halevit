@@ -34,10 +34,6 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: 'Apa itu Halevit Fiber?',
-      answer: 'Halevit Fiber adalah minuman serat berbentuk serbuk dengan 2 varian rasa yang membantu melancarkan pencernaan, menjaga kesehatan usus, membantu BAB lebih teratur, dan mendukung gaya hidup sehat sehari-hari.'
-    },
-    {
       question: 'Apakah Halevit Fiber aman dikonsumsi setiap hari?',
       answer: 'Ya, Halevit Fiber aman untuk dikonsumsi setiap hari. Terbuat dari bahan alami, tinggi serat,     bebas gula tambahan, serta telah terdaftar BPOM dan bersertifikat Halal.'
     },
@@ -60,10 +56,6 @@ const FAQ = () => {
     {
       question: 'Apakah Halevit Fiber bisa diminum bersamaan dengan obat?',
       answer: 'Halevit Fiber aman dikonsumsi bersamaan dengan obat lain. Untuk hasil terbaik, beri jeda sekitar 1–2 jam atau konsultasikan dengan tenaga medis.'
-    },
-    {
-      question: 'Dimana bisa membeli Halevit Fiber?',
-      answer: 'Halevit Fiber tersedia di official store Halevit di Tokopedia, Shopee, dan TikTok Shop. Klik tombol beli sekarang untuk menuju marketplace pilihan Anda.'
     }
   ];
 

@@ -30,7 +30,7 @@ const ContactUs = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/6285186881407', '_blank');
+    window.open('https://wa.me/6285186881407?text=Salam%20Sehat%20dari%20Halevit%0A%0AAda%20yang%20bisa%20kami%20bantu?%0A%0ATulis%20data%20dibawah%20ini,%20Tim%20kami%20akan%20siap%20membantu.%0A%0ANama:%0ANomor%20HP:%0APerihal:%0A%0ATerima%20kasih.', '_blank');
   };
 
   return (
